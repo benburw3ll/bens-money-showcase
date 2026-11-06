@@ -1,0 +1,13 @@
+{
+  "name": "bens-money-showcase",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Selected calculation code and the Claude integration from Ben's Money, with synthetic tests.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test \"tests/*.test.ts\""
+  }
+}
